@@ -1,0 +1,115 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 44px 0 144px 76px;
+}
+.link-header{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-left: 23px;
+}
+
+.button-login{
+    width: 130px;
+    height: 41px;
+    border-radius: 20.5px;
+    background: #665AE1;
+    margin-left: 15px;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    font-size: 24px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.logo-image{
+    width: 568px;
+    height: 500px;
+    display: inline-block;
+}
+
+.conteiner-right{
+    display: inline-block;
+    margin-left: 86px;
+    
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    line-height: normal;
+    color: #515151;
+}
+
+h2{
+    font-size: 58px;
+    font-weight: 500;
+line-height: normal;
+color: #515151;
+}
+
+p{
+    font-weight: 400;
+line-height: normal;
+font-size: 24px;
+color: #848484;
+width: 515px;
+margin: 32px 0 65px 0;
+}
+
+.button-explore{
+    width: 239px;
+    height: 64px;
+    border-radius: 20.5px;
+    background: #ADFF00;
+    border: none;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    header{
+        display: none;
+    }
+
+    img{
+        max-width: 100%;
+       
+    }
+    .logo-image{
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px 40px 40px 40px;
+    }
+
+    .conteiner-right{
+        display: block;
+        text-align: center;
+    }
+
+    p{
+        display: none;
+    }
+}
+    
+
